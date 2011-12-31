@@ -1,0 +1,30 @@
+body {
+  font-family: helvetica;
+  color: #333;
+  line-height: 150%;
+}
+.loading {
+  color: #ccc;
+}
+.left {
+  width: 70%;
+  float: left;
+  display: block;
+}
+.right {
+  width: 25%;
+  float: left;
+  padding-left: 2em;
+  display: block;
+  padding-top: 70px; 
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+h1, h2, h3 {
+  font-family: georgia;
+  font-weight: normal;
+  letter-spacing: .09em;
+  color: black;
+}

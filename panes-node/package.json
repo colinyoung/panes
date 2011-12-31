@@ -1,0 +1,9 @@
+{
+  "name": "panes",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "2.2.0",
+    "jade": "0.20.0",
+    "mongodb" : "0.9.7"
+  }
+}
