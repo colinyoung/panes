@@ -103,6 +103,9 @@ $(function() {
           }
         }
         
+        if (typeof response.panes == "undefined")
+          response.panes = [];
+        
         $(pane).html(
           (response.status.code == 200) ? response.panes[$(pane).attr('id')] : "Failed to load.<br />Reason: " + response.status.message
         );
